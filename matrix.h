@@ -52,7 +52,7 @@ namespace compile_time_checker {
 }
 
 //Begin of fast rational
-/*
+
 typedef std::complex<long double> cld;
 
 const long double PI = acosl(-1.0);
@@ -901,7 +901,7 @@ std::string Rational::asDecimal(size_t precision) const {
         return ans;
     }
 }
-*/
+
 //End of fast rational
 template<unsigned int P>
 class Finite {
